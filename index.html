@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dela Almal Liani — Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            DELA ALMAL LIANI
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#organizations">Organizations</a>
+            <a href="#certifications">Certificates</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">
+            Let's Talk
+        </a>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">PORTFOLIO · 2026</p>
+
+                <h1>Hi, I'm <span>Dela</span></h1>
+
+                <h2> Automation Engineering </h2>
+
+        <p class="hero-typing">
+        Currently building <span id="heroTyped"></span>
+        </p>
+
+                <p class="hero-description">
+                    I develop IoT systems, embedded applications,
+                    deep learning solutions, PLC and SCADA systems,
+                    and digital interfaces that connect technology
+                    with real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">Explore Projects</a>
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual">
+
+                <div class="image-card">
+                    <img src="assets/profile1.png" alt="Foto Dela">
+                </div>
+
+                <!-- DECORATIVE CIRCLES -->
+                <div class="circle circle-one"></div>
+                <div class="circle circle-two"></div>
+                <div class="circle circle-three"></div>
+                <div class="circle circle-four"></div>
+                <div class="circle circle-five"></div>
+
+                <!-- ORBITS -->
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section id="projects" class="projects section">
+
+            <div class="projects-header">
+
+                <p class="eyebrow">SELECTED WORK</p>
+
+                <h2>Projects I've <span>worked on.</span></h2>
+
+                <p class="projects-description">
+                    A collection of projects combining automation,
+                    IoT, deep learning, embedded systems, 
+                    UI & UX, and digital product development.
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT CAROUSEL -->
+
+            <div class="project-carousel">
+
+                <button class="carousel-arrow carousel-prev" aria-label="Previous project">←</button>
+
+                <div class="project-slider">
+
+                    <!-- PROJECT 01 -->
+                    <article class="project-card" data-index="0">
+
+                        <div class="project-image">
+                            <img src="assets/ika1.png" alt="IKAPPNS Alumni Information System">
+                        </div>
+
+                        <div class="project-info">
+
+                            <p class="project-number">01</p>
+
+                            <h3>IKAPPNS</h3>
+
+                            <p>
+                                An alumni information application
+                                developed using React Native,
+                                PHP API, and MySQL.
+                            </p>
+
+                            <div class="tags">
+                                <span>React Native</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>REST API</span>
+                            </div>
+
+                            <button type="button" class="project-btn" onclick="openProject(1)">
+                                READ MORE
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 02 -->
+                    <article class="project-card" data-index="1">
+
+                        <div class="project-image">
+                            <img src="assets/welder.jpeg" alt="Welder Activity Recognition">
+                        </div>
+
+                        <div class="project-info">
+
+                            <p class="project-number">02</p>
+
+                            <h3>Welder Activity Recognition</h3>
+
+                            <p>
+                                An IoT-based system for classifying
+                                welder activities using IMU sensor
+                                data and CNN.
+                            </p>
+
+                            <div class="tags">
+                                <span>ESP32</span>
+                                <span>ICM-20948</span>
+                                <span>CNN</span>
+                                <span>MQTT</span>
+                            </div>
+
+                            <button type="button" class="project-btn" onclick="openProject(2)">
+                                READ MORE
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 03 -->
+                    <article class="project-card" data-index="2">
+
+                        <div class="project-image">
+                            <img src="assets/plc.jpeg" alt="Automation and Control Systems">
+                        </div>
+
+                        <div class="project-info">
+
+                            <p class="project-number">03</p>
+
+                            <h3>Automation &amp; Control Systems</h3>
+
+                            <p>
+                                Practical experience in automation
+                                covering PLC, electrical design,
+                                pneumatics, and system simulation.
+                            </p>
+
+                            <div class="tags">
+                                <span>PLC</span>
+                                <span>AutoCAD</span>
+                                <span>EAGLE</span>
+                                <span>ETAP</span>
+                            </div>
+
+                            <button type="button" class="project-btn" onclick="openProject(3)">
+                                READ MORE
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 04 -->
+                    <article class="project-card" data-index="3">
+
+                        <div class="project-image">
+                            <img src="assets/uang.png" alt="UangKu Personal Finance App">
+                        </div>
+
+                        <div class="project-info">
+
+                            <p class="project-number">04</p>
+
+                            <h3>UangKu</h3>
+
+                            <p>
+                                A mobile application designed
+                                to help users manage personal
+                                expenses through a simple interface.
+                            </p>
+
+                            <div class="tags">
+                                <span>UI/UX</span>
+                                <span>React Native</span>
+                                <span>Expo</span>
+                                <span>Figma</span>
+                            </div>
+
+                            <button type="button" class="project-btn" onclick="openProject(4)">
+                                READ MORE
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 05 -->
+                    <article class="project-card" data-index="4">
+
+                        <div class="project-image">
+                            <img src="assets/human.jpeg" alt="Human Activity Recognition">
+                        </div>
+
+                        <div class="project-info">
+
+                            <p class="project-number">05</p>
+
+                            <h3>Human Activity Recognition</h3>
+
+                            <p>
+                                A computer vision project for
+                                recognizing human activities from
+                                camera input and sending notifications.
+                            </p>
+
+                            <div class="tags">
+                                <span>Computer Vision</span>
+                                <span>Camera</span>
+                                <span>YOLO</span>
+                                <span>Python</span>
+                                <span>Telegram</span>
+                            </div>
+
+                            <button type="button" class="project-btn" onclick="openProject(5)">
+                                READ MORE
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <button class="carousel-arrow carousel-next" aria-label="Next project">→</button>
+
+            </div>
+
+
+            <!-- CAROUSEL DOTS -->
+
+            <div class="project-dots">
+                <button data-slide="0" aria-label="Project 1"></button>
+                <button data-slide="1" aria-label="Project 2" class="active"></button>
+                <button data-slide="2" aria-label="Project 3"></button>
+                <button data-slide="3" aria-label="Project 4"></button>
+                <button data-slide="4" aria-label="Project 5"></button>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section id="about" class="about section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">ABOUT ME</p>
+
+                <h2>Engineering meets <span>creativity.</span></h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <p>
+                    I'm an Automation Engineering student interested
+                    in embedded systems, Internet of Things, deep
+                    learning, and digital product development.
+                </p>
+
+                <p>
+                    My projects combine hardware, software, data,
+                    and user experience to create practical
+                    technology solutions.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section id="skills" class="skills section">
+
+            <div class="skills-layout">
+
+                <!-- KIRI: judul + kartu -->
+                <div class="skills-left">
+
+                    <div class="section-heading">
+                        <p class="eyebrow">WHAT I WORK WITH</p>
+                        <h2>My <span>skills.</span></h2>
+                    </div>
+
+                    <div class="skill-grid">
+
+                        <div class="skill-card">
+                            <span>01</span>
+                            <h3>IoT &amp; Embedded</h3>
+                            <p>ESP32 · Arduino · Raspberry Pi · MQTT · Sensor · MongoDB &amp; Actuator</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <span>02</span>
+                            <h3>Deep &amp; Deep Learning</h3>
+                            <p>Python · CNN · Data Processing · Classification</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <span>03</span>
+                            <h3>Industrial Automation</h3>
+                            <p>PLC · SCADA · HMI · Pneumatic · Control Panel</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <span>04</span>
+                            <h3>Web Development</h3>
+                            <p>HTML · CSS · JavaScript · REST API · MySQL · MongoDB</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <span>05</span>
+                            <h3>UI / UX Design</h3>
+                            <p>Figma · Prototyping · Mobile Interface</p>
+                        </div>
+
+                        <div class="skill-card">
+                            <span>06</span>
+                            <h3>Tools</h3>
+                            <p>VS Code · MS Office</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- KANAN: logo mengelilingi Next -->
+                <div class="skills-right">
+
+                    <div class="logo-orbit" style="--i:0; --d:0s" title="Python">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:1; --d:.4s" title="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:2; --d:.8s" title="MS Office">
+                        <span class="office-badge">Office</span>
+                    </div>
+
+                    <div class="logo-orbit" style="--i:3; --d:1.2s" title="MySQL">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:4; --d:1.6s" title="Figma">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:5; --d:.2s" title="Arduino">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:6; --d:.6s" title="VS Code">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:7; --d:1s" title="Raspberry Pi">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi">
+                    </div>
+
+                    <div class="logo-orbit" style="--i:8; --d:1.4s" title="MongoDB">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    </div>
+
+                    <!-- NEXT -->
+                    <a href="#organizations" class="next-bubble" aria-label="Next section">
+
+                        <svg class="next-ring" viewBox="0 0 120 120" aria-hidden="true">
+                            <defs>
+                                <path id="nextCircle"
+                                      d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" />
+                            </defs>
+                            <text>
+                                <textPath href="#nextCircle"
+                                          textLength="272"
+                                          lengthAdjust="spacing">
+                                    NEXT · NEXT · NEXT · NEXT · NEXT ·
+                                </textPath>
+                            </text>
+                        </svg>
+
+                        <i>↓</i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<!-- =========================
+     ORGANIZATIONS
+========================== -->
+
+<section id="organizations" class="organizations section">
+
+    <div class="org-head">
+
+        <div class="section-heading">
+            <p class="eyebrow">ORGANIZATIONS</p>
+            <h2>Beyond the <span>classroom.</span></h2>
+        </div>
+    </div>
+
+
+    <div class="org-track" tabindex="0" role="region" aria-label="Organization experience">
+
+        <!-- ORGANIZATION 1 -->
+        <article class="org-item">
+
+            <button type="button" class="org-open" aria-label="View details: Marine Robotic Community">
+                <figure class="org-photo">
+                    <span class="org-initials" aria-hidden="true">MR</span>
+                    <img src="assets/foto-tim.png"
+                         alt="Marine Robotic Community activity"
+                         loading="lazy" draggable="false">
+                    <span class="org-plus" aria-hidden="true">+</span>
+                </figure>
+                <span class="org-caption">
+                    <span class="org-name">Marine Robotic Community</span>
+                    <span class="org-role">Programmer</span>
+                    <span class="org-period">2023 – 2024</span>
+                </span>
+            </button>
+
+            <div class="org-info" hidden>
+                <span class="org-tag">Student community</span>
+                <h3>Marine Robotic Community</h3>
+                <p class="org-role">Programmer</p>
+                <p class="org-period">2023 – 2024</p>
+                <p class="org-text">
+                    Contributed as a programmer in a student community
+                    focused on robotics and technology development.
+                </p>
+                <ul class="org-points">
+                    <li>Developed control programs for the team's robot platform.</li>
+                    <li>Tested and debugged software together with the hardware team.</li>
+                    <li>Supported the team in preparing for competitions and demonstrations.</li>
+                </ul>
+                <div class="org-skills">
+                    <span>Programming</span>
+                    <span>Robotics</span>
+                    <span>Teamwork</span>
+                </div>
+            </div>
+
+        </article>
+
+
+         <!-- ORGANIZATION 2 -->
+        <article class="org-item">
+
+            <button type="button" class="org-open" aria-label="View details: HIMA Minba">
+                <figure class="org-photo">
+                    <span class="org-initials" aria-hidden="true">HM</span>
+                    <img src="assets/hima.jpg"
+                         alt="HIMA Minba certificate"
+                         loading="lazy" draggable="false">
+                    <span class="org-plus" aria-hidden="true">+</span>
+                </figure>
+                <span class="org-caption">
+                    <span class="org-name">HIMA Minba</span>
+                    <span class="org-role">Staff Ahli</span>
+                    <span class="org-period">2024 – 2025</span>
+                </span>
+            </button>
+
+            <div class="org-info" hidden>
+                <span class="org-tag">Student association</span>
+                <h3>HIMA Minba</h3>
+                <p class="org-role">Staff Ahli</p>
+                <p class="org-period">2024 – 2025</p>
+                <p class="org-text">
+                    Served as Staff Ahli (Expert Staff) in the Automation Engineering
+                    Student Association at Politeknik Perkapalan Negeri Surabaya,
+                    during the Gemintang Pancar Cabinet 2024/2025.
+                </p>
+                <ul class="org-points">
+                    <li>Contributed to the planning and running of the association's programs.</li>
+                    <li>Coordinated with other divisions to keep activities on schedule.</li>
+                    <li>Supported member engagement and internal communication.</li>
+                </ul>
+                <div class="org-skills">
+                    <span>Collaboration</span>
+                    <span>Event Planning</span>
+                    <span>Communication</span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- ORGANIZATION 3 -->
+        <article class="org-item">
+
+            <button type="button" class="org-open" aria-label="View details: LKMM TD">
+                <figure class="org-photo">
+                    <span class="org-initials" aria-hidden="true">LK</span>
+                    <img src="assets/pemandu.jpg"
+                         alt="LKMM TD facilitator certificate"
+                         loading="lazy" draggable="false">
+                    <span class="org-plus" aria-hidden="true">+</span>
+                </figure>
+                <span class="org-caption">
+                    <span class="org-name">LKMM TD</span>
+                    <span class="org-role">Pemandu (Facilitator)</span>
+                    <span class="org-period">2024</span>
+                </span>
+            </button>
+
+            <div class="org-info" hidden>
+                <span class="org-tag">Leadership development</span>
+                <h3>LKMM TD</h3>
+                <p class="org-role">Pemandu (Facilitator)</p>
+                <p class="org-period">2024</p>
+                <p class="org-text">
+                    Contributed as a Pemandu (facilitator) in the LKMM leadership
+                    training program at Politeknik Perkapalan Negeri Surabaya,
+                    representing the Media and Information team.
+                </p>
+                <ul class="org-points">
+                    <li>Guided participants through the leadership training program.</li>
+                    <li>Supported the media and information needs of the activity.</li>
+                    <li>Worked with the committee to keep the training running smoothly.</li>
+                </ul>
+                <div class="org-skills">
+                    <span>Leadership</span>
+                    <span>Facilitation</span>
+                    <span>Communication</span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <!-- ORGANIZATION 4 -->
+        <article class="org-item">
+
+            <button type="button" class="org-open" aria-label="View details: Automation Week">
+                <figure class="org-photo">
+                    <span class="org-initials" aria-hidden="true">AW</span>
+                    <img src="assets/AW.jpg"
+                         alt="Automation Week certificate"
+                         loading="lazy" draggable="false">
+                    <span class="org-plus" aria-hidden="true">+</span>
+                </figure>
+                <span class="org-caption">
+                    <span class="org-name">Automation Week</span>
+                    <span class="org-role">Sekretaris 1</span>
+                    <span class="org-period">2024</span>
+                </span>
+            </button>
+
+            <div class="org-info" hidden>
+                <span class="org-tag">Student event</span>
+                <h3>Automation Week</h3>
+                <p class="org-role">Sekretaris 1</p>
+                <p class="org-period">2024</p>
+                <p class="org-text">
+                    Served as First Secretary for Automation Week 2024, organized by
+                    the Automation Engineering Student Association (PPNS) under the
+                    theme "Realizing Indonesia Emas 2045 through Automation Innovation".
+                </p>
+                <ul class="org-points">
+                    <li>Managed event administration, correspondence, and documentation.</li>
+                    <li>Prepared meeting minutes and kept committee records organized.</li>
+                    <li>Coordinated between divisions to support smooth event execution.</li>
+                </ul>
+                <div class="org-skills">
+                    <span>Administration</span>
+                    <span>Documentation</span>
+                    <span>Coordination</span>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- ORGANIZATION 5 -->
+        <article class="org-item">
+
+            <button type="button" class="org-open" aria-label="View details: Student Representative Council">
+                <figure class="org-photo">
+                    <span class="org-initials" aria-hidden="true">DP</span>
+                    <img src="assets/dpm.jpeg"
+                         alt="Student Representative Council activity"
+                         loading="lazy" draggable="false">
+                    <span class="org-plus" aria-hidden="true">+</span>
+                </figure>
+                <span class="org-caption">
+                    <span class="org-name">Student Representative Council</span>
+                    <span class="org-role">Supervisory Staff Apprentice</span>
+                    <span class="org-period">2022 – 2023</span>
+                </span>
+            </button>
+
+            <div class="org-info" hidden>
+                <span class="org-tag">Student representative body</span>
+                <h3>Student Representative Council</h3>
+                <p class="org-role">Supervisory Staff Apprentice</p>
+                <p class="org-period">2022 – 2023</p>
+                <p class="org-text">
+                    Served as a Supervisory Staff Apprentice in the Student
+                    Representative Council of Politeknik Perkapalan Negeri Surabaya
+                    (Shipbuilding Institute of Polytechnic Surabaya) for the
+                    2022/2023 period, and received a Certificate of Appreciation
+                    for the contribution.
+                </p>
+                <ul class="org-points">
+                    <li>Learned how the council oversees student organizations and activities.</li>
+                    <li>Supported the supervisory team in monitoring programs and reporting.</li>
+                    <li>Worked with council members and other student bodies.</li>
+                </ul>
+                <div class="org-skills">
+                    <span>Supervision</span>
+                    <span>Organization</span>
+                    <span>Teamwork</span>
+                </div>
+            </div>
+
+        </article>
+
+
+    <!-- DETAIL PANEL (muncul saat foto diklik) -->
+    <div class="org-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Organization detail">
+        <div class="org-modal-backdrop"></div>
+
+        <div class="org-modal-panel">
+
+            <button type="button" class="org-modal-close" aria-label="Close">×</button>
+
+            <div class="org-modal-side">
+                <div class="org-modal-info"></div>
+
+                <div class="org-modal-nav">
+                    <button type="button" class="org-arrow org-modal-prev" aria-label="Previous">←</button>
+                    <button type="button" class="org-arrow org-modal-next" aria-label="Next">→</button>
+                    <span class="org-modal-count"></span>
+                </div>
+            </div>
+
+            <div class="org-modal-photo"></div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- =========================
+     CERTIFICATIONS & TRAINING
+========================== -->
+
+<section id="certifications" class="certifications section">
+
+   <div class="cx-head">
+
+    <div class="section-heading">
+        <p class="eyebrow">CERTIFICATIONS &amp; TRAINING</p>
+        <h2>Learning through <span>experience.</span></h2>
+    </div>
+
+</div>
+
+
+<div class="cx-acc">
+
+    <!-- 01 : CERTIFICATION -->
+    <article class="cx-panel is-active" data-type="cert">
+        <button type="button" class="cx-collapsed" aria-label="Open: TEC">
+            <span class="cx-num">01</span>
+            <span class="cx-vname">TEC</span>
+            <span class="cx-year">2026</span>
+        </button>
+        <div class="cx-expanded">
+            <button type="button" class="cx-thumb" data-lightbox="assets/TOEIC.jpg" aria-label="Enlarge TEC certificate">
+                <img src="assets/TOEIC.jpg" alt="Test of English Competency (TEC) certificate from PPNS" loading="lazy" draggable="false">
+                <span class="cx-zoom">Enlarge +</span>
+            </button>
+            <div class="cx-info">
+                <span class="cx-type">Certification</span>
+                <h3>Test of English Competency (TEC)</h3>
+                <p class="cx-meta">PPNS (Shipbuilding Institute of Polytechnic Surabaya) · 2026</p>
+                <p class="cx-desc">English proficiency test with a total score of 605 (Listening 395, Reading 210). Valid until 19 June 2028.</p>
+            </div>
+        </div>
+    </article>
+
+<!-- 02 : CERTIFICATION -->
+<article class="cx-panel" data-type="cert">
+    <button type="button" class="cx-collapsed" aria-label="Open: Engineer Competency">
+        <span class="cx-num">02</span>
+        <span class="cx-vname">Engineer Competency</span>
+        <span class="cx-year">2026</span>
+    </button>
+    <div class="cx-expanded">
+        <button type="button" class="cx-thumb" data-lightbox="assets/engineer.jpg" aria-label="Enlarge competency assessment result">
+            <img src="assets/engineer.jpg" alt="Competency assessment result from LSP PPNS: declared competent" loading="lazy" draggable="false">
+            <span class="cx-zoom">Enlarge +</span>
+        </button>
+        <div class="cx-info">
+            <span class="cx-type">Certification · In progress</span>
+            <h3>Engineer Competency Certification</h3>
+            <p class="cx-meta">LSP PPNS (BNSP) · 2026 </p>
+            <p class="cx-desc">Declared competent in the professional competency assessment conducted by LSP PPNS (Professional Certification Body, Politeknik Perkapalan Negeri Surabaya). The official certificate is currently being issued.</p>
+        </div>
+    </div>
+</article>
+
+<!-- 03 : TRAINING -->
+<article class="cx-panel" data-type="train">
+    <button type="button" class="cx-collapsed" aria-label="Open: LKMM Pra TD">
+        <span class="cx-num">03</span>
+        <span class="cx-vname">LKMM Pra TD</span>
+        <span class="cx-year">2022</span>
+    </button>
+    <div class="cx-expanded">
+        <button type="button" class="cx-thumb" data-lightbox="assets/lkmm-pratd.jpg" aria-label="Enlarge LKMM Pra TD certificate">
+            <img src="assets/lkmm-pratd.jpg" alt="LKMM Pra TD certificate" loading="lazy" draggable="false">
+            <span class="cx-zoom">Enlarge +</span>
+        </button>
+        <div class="cx-info">
+            <span class="cx-type">Training</span>
+            <h3>LKMM Pra TD</h3>
+            <p class="cx-meta">[Organizer] · 2022</p>
+            <p class="cx-desc">Pre-basic level student management skills training (Latihan Keterampilan Manajemen Mahasiswa), introducing the fundamentals of leadership and organizational management.</p>
+        </div>
+    </div>
+</article>
+
+<!-- 04 : TRAINING -->
+<article class="cx-panel" data-type="train">
+    <button type="button" class="cx-collapsed" aria-label="Open: LKMM TD">
+        <span class="cx-num">04</span>
+        <span class="cx-vname">LKMM TD</span>
+        <span class="cx-year">2023</span>
+    </button>
+    <div class="cx-expanded">
+        <button type="button" class="cx-thumb" data-lightbox="assets/lkmm-td.jpg" aria-label="Enlarge LKMM TD certificate">
+            <img src="assets/lkmm-td.jpg" alt="LKMM TD certificate" loading="lazy" draggable="false">
+            <span class="cx-zoom">Enlarge +</span>
+        </button>
+        <div class="cx-info">
+            <span class="cx-type">Training</span>
+            <h3>LKMM TD</h3>
+            <p class="cx-meta">[Organizer] · 2023</p>
+            <p class="cx-desc">Basic level student management skills training (Latihan Keterampilan Manajemen Mahasiswa), strengthening leadership, communication, and teamwork skills.</p>
+        </div>
+    </div>
+</article>
+
+    <!-- LIGHTBOX -->
+    <div class="cx-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Certificate viewer">
+
+        <div class="cx-lightbox-backdrop"></div>
+
+        <div class="cx-lightbox-bar">
+            <button type="button" class="cx-zbtn" data-zoom="out" aria-label="Zoom out">−</button>
+            <span class="cx-zlevel">100%</span>
+            <button type="button" class="cx-zbtn" data-zoom="in" aria-label="Zoom in">+</button>
+            <button type="button" class="cx-zbtn cx-zreset" data-zoom="reset">Reset</button>
+            <button type="button" class="cx-lightbox-close" aria-label="Close">×</button>
+        </div>
+
+        <div class="cx-lightbox-stage">
+            <img src="" alt="" draggable="false">
+        </div>
+
+        <p class="cx-lightbox-cap"></p>
+
+    </div>
+
+</section>
+
+<<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact" class="contact section">
+
+    <div class="ct-layout">
+
+        <!-- Kiri: teks -->
+        <div class="ct-content">
+
+            <p class="eyebrow">CONTACT</p>
+
+            <span class="ct-badge"><i aria-hidden="true"></i>Open to work</span>
+
+            <h2>Let's build something <span>together.</span></h2>
+
+            <p class="ct-desc">
+                Open for job opportunities in automation, IoT,
+                and digital product development.
+            </p>
+
+        </div>
+
+
+        <!-- Kanan: foto miring dan bola kontak -->
+        <div class="ct-visual">
+
+            <div class="ct-orbit ct-orbit-one"></div>
+            <div class="ct-orbit ct-orbit-two"></div>
+
+            <figure class="ct-photo">
+                <img src="assets/kontak.png" alt="Foto Dela" draggable="false">
+            </figure>
+
+            <!-- WhatsApp -->
+            <a class="ct-sphere ct-whatsapp"
+               href="https://wa.me/62895411577380"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="WhatsApp" data-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+            </a>
+
+            <!-- Email: langsung membuka penulisan email ke Dela -->
+            <a class="ct-sphere ct-email"
+               href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=delaalmal25@gmail.com&amp;su=Halo%20Dela&amp;body=Halo%20Dela%2C%20saya%20tertarik%20dengan%20portofoliomu."
+               target="_blank" rel="noopener noreferrer"
+               aria-label="Kirim email ke Dela" data-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="2"/>
+                    <path d="m3 7 9 6 9-6"/>
+                </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a class="ct-sphere ct-linkedin"
+               href="https://www.linkedin.com/in/delaalmal/"
+               target="_blank" rel="noopener noreferrer"
+               aria-label="LinkedIn" data-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+            </a>
+
+            <!-- bola dekorasi -->
+            <span class="ct-dot ct-dot-one" aria-hidden="true"></span>
+            <span class="ct-dot ct-dot-two" aria-hidden="true"></span>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- =========================
+         CERTIFICATE LIGHTBOX
+    ========================== -->
+
+    <div class="cert-lightbox" id="certLightbox" aria-hidden="true">
+
+        <button type="button" class="cert-lightbox-close" aria-label="Close certificate">×</button>
+
+        <figure class="cert-lightbox-content">
+            <img id="certLightboxImg" src="" alt="">
+            <figcaption id="certLightboxCaption"></figcaption>
+        </figure>
+
+    </div>
+
+
+    <!-- =========================
+         PROJECT DETAIL MODAL
+    ========================== -->
+
+    <div class="project-modal" id="projectModal">
+
+        <div class="project-modal-content">
+
+            <button class="modal-close" onclick="closeProject()" aria-label="Close project detail">
+                ×
+            </button>
+
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="">
+            </div>
+
+            <div class="modal-body">
+
+                <p class="modal-number" id="modalNumber">01</p>
+
+                <h2 id="modalTitle">Project Title</h2>
+
+                <p class="modal-category" id="modalCategory">CATEGORY</p>
+
+                <div class="modal-section">
+                    <h3>Overview</h3>
+                    <p id="modalDescription">Project description.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies</h3>
+                    <div class="modal-tags" id="modalTags"></div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>My Contribution</h3>
+                    <ul id="modalContribution"></ul>
+                </div>
+
+                <div class="modal-section" id="modalResultSection">
+                    <h3>Result</h3>
+                    <p id="modalResult"></p>
+                </div>
+
+                                <div class="modal-section" id="modalGallerySection" hidden>
+                    <h3>Gallery</h3>
+
+                    <div class="gal">
+                        <div class="gal-stage">
+                            <div class="gal-view" id="galView"></div>
+                            <button type="button" class="gal-nav gal-prev" id="galPrev" aria-label="Previous">←</button>
+                            <button type="button" class="gal-nav gal-next" id="galNext" aria-label="Next">→</button>
+                            <span class="gal-count" id="galCount"></span>
+                        </div>
+                        <p class="gal-cap" id="galCap"></p>
+                        <div class="gal-strip" id="galStrip"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+        <p>© 2026 Dela Almal. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+
+</body>
+
+</html>
